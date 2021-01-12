@@ -12,7 +12,6 @@
     ],
     "minimum-stability": "stable",
     "require": {
-	"yidas/yii2-bower-asset":"*",
         "yiisoft/yii2": "~2.0.0"
     },
     "extra": {

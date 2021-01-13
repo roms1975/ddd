@@ -8,8 +8,13 @@
 		'Пункт1' => '',
 		'Пункт2' => '',
 	];
-?>
 
+	$img = $this->getAssetManager()->bundles['roms\CmsAssetsBundle']->baseUrl;
+	print_r($img);
+	
+	
+?>
+ 
 <div class="top-menu">
 	<div class="container">
 		<div class="row">
@@ -47,7 +52,7 @@
 		<div class="col-sm-3">
 			<div class="logo">
 				<a href="/">
-					<img src="images/logo.png" alt="Логотип" />
+					<img src="<?= $img ?>/img/logo.png" alt="Логотип" />
 				</a>
 			</div>
 			<div class="address">

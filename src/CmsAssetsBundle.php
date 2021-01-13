@@ -9,4 +9,8 @@ class CmsAssetsBundle extends AssetBundle
     public $css = [
         'css/style.css'
     ];
+
+    public $img = [
+        'img/'
+    ];
 }

@@ -28,7 +28,7 @@ class Bootstrap implements BootstrapInterface {
             '<url:\w+>' => 'cms/cms/index',
         ], false);
 */
-        $app->layoutPath = '@vendor/roms1975/yii2-romscms/src/views/layouts/';
+        $app->layoutPath = '@vendor/roms1975/ddd/src/views/layouts/';
         $app->layout = 'main';
     }
 	

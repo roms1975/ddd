@@ -5,7 +5,7 @@ use yii\web\AssetBundle;
 
 class CmsAssetsBundle extends AssetBundle
 {
-    public $sourcePath = '@vendor/roms1975/yii2-romscms/assets';
+    public $sourcePath = '@vendor/roms1975/ddd/assets';
     public $css = [
         'css/style.css'
     ];
